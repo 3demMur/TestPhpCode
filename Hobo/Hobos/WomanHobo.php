@@ -1,0 +1,37 @@
+<?php
+
+class WomanHobo implements SmellBehavior, WiseAdvice,SetFireBehavior
+{
+    public function drink()
+    {
+        echo "I drink Vodka and nothing else matter";
+    }
+    public function begMoney()
+    {
+        echo "Please give some money I am hungry";
+    }
+    public function fightWithDogs()
+    {
+        echo "Hitting them with stick";
+    }
+    public function lootGarbage()
+    {
+        echo "Searching for bottles and food";
+    }
+    public  function sellBottles()
+    {
+        echo "I wound so it is property of mine which I am selling ";
+    }
+    public function smell()
+    {
+        echo " Herring fish smell ";
+    }
+    public function setFire()
+    {
+        echo "Setting fire by matches ";
+    }
+    public function giveAdvice()
+    {
+        echo " Every woman should drink even if she has 3 newborn children it doesn't matter ";
+    }
+}
